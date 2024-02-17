@@ -14,7 +14,7 @@
     "url": "git+https://github.com/sixfootsixdesigns/React-Library-Boilerplate.git"
   },
   "scripts": {
-    "build": "yarn clean; rollup -c",
+    "build": "yarn clean ; rollup -c",
     "clean": "rimraf dist",
     "dev": "yarn storybook",
     "format": "prettier --write \"src/**/*.{ts,tsx,json,js,jsx}\"",
@@ -38,14 +38,15 @@
     "@semaphore-protocol/identity": "^3.11.0",
     "classnames": "^2.2.6",
     "jwt-decode": "^4.0.0",
+    "patch-package": "^8.0.0",
     "sindri": "^0.0.1-alpha.30"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
     "@react-oauth/google": "^0.12.1",
     "@semaphore-protocol/identity": "^3.11.0",
-    "jwt-decode": "^4.0.0"
+    "jwt-decode": "^4.0.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.7",
@@ -58,6 +59,7 @@
     "@semantic-release/git": "^9.0.0",
     "@semantic-release/npm": "^7.0.8",
     "@semantic-release/release-notes-generator": "^9.0.1",
+    "@semaphore-protocol/identity": "^3.11.0",
     "@storybook/react": "^6.1.2",
     "@testing-library/react": "^11.2.2",
     "@types/classnames": "^2.2.11",
@@ -80,7 +82,7 @@
     "hygen": "^6.0.4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
-    "node-sass": "^5.0.0",
+    "node-sass": "^9.0.0",
     "prettier": "^2.2.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
@@ -102,7 +104,7 @@
     "webpack": "^4.42.1"
   },
   "engines": {
-    "node": ">=12.0.0",
+    "node": ">=16.0.0",
     "yarn": "^1.5"
   },
   "husky": {
