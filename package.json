@@ -34,7 +34,10 @@
   "module": "index.esm.js",
   "types": "index.d.ts",
   "dependencies": {
-    "classnames": "^2.2.6"
+    "@react-oauth/google": "^0.12.1",
+    "@semaphore-protocol/identity": "^3.11.0",
+    "classnames": "^2.2.6",
+    "jwt-decode": "^4.0.0"
   },
   "peerDependencies": {
     "react": "^16.8.0",
