@@ -1,7 +1,7 @@
 {
-  "name": "anon-insight",
+  "name": "anoninsight",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": false,
   "description": "A SDK provides seamless anonymity integration for forms, adaptable to both Web2 and Web3 applications",
   "author": "James Olson",
