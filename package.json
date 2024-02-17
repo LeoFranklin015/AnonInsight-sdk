@@ -1,17 +1,17 @@
 {
-  "name": "sixfootsixdesigns-react-library-boilerplate",
+  "name": "anon-insight",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
-  "description": "React Typescript Library Boilerplate",
+  "description": "A SDK provides seamless anonymity integration for forms, adaptable to both Web2 and Web3 applications",
   "author": "James Olson",
-  "homepage": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate",
+  "homepage": "https://github.com/LeoFranklin015/AnonInsight-sdk",
   "bugs": {
-    "url": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate/issues"
+    "url": "https://github.com/LeoFranklin015/AnonInsight-sdk/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sixfootsixdesigns/React-Library-Boilerplate.git"
+    "url": "git+https://github.com/LeoFranklin015/AnonInsight-sdk.git"
   },
   "scripts": {
     "build": "yarn clean ; rollup -c",
