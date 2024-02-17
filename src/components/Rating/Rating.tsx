@@ -80,6 +80,7 @@ export const Rating: React.FC<RatingProps> = ({ groupid, apikey }) => {
       }
     } catch (error) {
       console.log(error);
+      console.log(error);
     }
   };
 
