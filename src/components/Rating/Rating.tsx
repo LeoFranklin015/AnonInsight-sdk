@@ -108,11 +108,26 @@ export const Rating: React.FC<RatingProps> = ({
     setComment(event.target.value);
   };
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+
     console.log('Rating:', rating);
     console.log('Comment:', comment);
     console.log('Email:', email);
+    try {
+      const response = await fetch('https://anoninsight.onrender.com/feedback', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ id: sindri_circuit_id, feedback: [rating, comment] }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      console.log(response);
+    } catch (error) {}
     alert('Your feedback was recorded');
   };
   const googleSuccess = (resp) => {
