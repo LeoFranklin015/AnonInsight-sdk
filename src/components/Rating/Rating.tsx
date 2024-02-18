@@ -32,7 +32,7 @@ export const Rating: React.FC<RatingProps> = ({
   const handleRatingChange = (value: number) => {
     setRating(value);
   };
-  const createIdentity = async () => {
+  const createIdentity = async (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     event.preventDefault();
     const identity = new Identity(email);
     setIdentity(identity);
