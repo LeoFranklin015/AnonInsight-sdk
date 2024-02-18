@@ -52,3 +52,4 @@ To use the Anon Insight package in your project, follow these steps:
    - **Google Client ID**: Retrieve your Google Client ID from the [Google Cloud Console](https://cloud.google.com).
    - **Group ID**: Find your Group ID from [Bandada](https://bandada.pse.dev).
    - **API Key**: Obtain your API Key from [Bandada](https://bandada.pse.dev).
+   - 
