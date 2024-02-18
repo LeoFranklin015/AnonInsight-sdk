@@ -37,7 +37,7 @@ export const Rating: React.FC<RatingProps> = ({
     setIdentity(identity);
     console.log(
       'Your new Semaphore identity was just created with the following commitment: ',
-      _identity!.commitment.toString()
+      _identity?.commitment.toString()
     );
     const groupId = groupid;
     const memberId = identity.commitment.toString();
