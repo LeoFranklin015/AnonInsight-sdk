@@ -113,6 +113,7 @@ export const Rating: React.FC<RatingProps> = ({
     console.log('Rating:', rating);
     console.log('Comment:', comment);
     console.log('Email:', email);
+    alert('Your feedback was recorded');
   };
   const googleSuccess = (resp) => {
     const decoded: { name?: any; email?: string } = jwtDecode(resp?.credential);
